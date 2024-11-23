@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #900;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo-titulo h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .menu li {
+  display: inline-block;
+}
+
+nav .menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav .menu li a:hover {
+  background-color: #700;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+.produto-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.produto, .detalhes-produto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+.produto img, .detalhes-produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto h3, .detalhes-produto h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.produto p, .detalhes-produto p {
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+
+.botao, .voltar, .comprar, button {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao:hover, .voltar:hover, .comprar:hover, button:hover {
+  background-color: #700;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.contato img {
+  max-width: 550px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.contato-info {
+  max-width: 600px;
+}
+
+.contato-info h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  margin-top: auto;
+}
+
+.sucesso {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.icone-sucesso {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.sucesso h2 {
+  font-size: 24px;
+  color: #090;
+  margin-bottom: 10px;
+}
+
+.sucesso p {
+  font-size: 16px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.botoes .botao {
+  background-color: #900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botoes .botao:hover {
+  background-color: #700;
+}
